@@ -2,7 +2,7 @@ const path    = require('path')
 const webpack = require('webpack')
 const config = require('../config')
 
-let vendors = ['react', 'react-dom']
+let vendors = ['react', 'react-dom', 'lodash']
 
 module.exports = {
   entry: {
